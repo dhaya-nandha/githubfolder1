@@ -2,14 +2,17 @@
 
 int main() {
     std:: cout << "Vanakamma da mapla !\n";
-    
-    //implicit conversion
-    int x = 3.14;
-    std:: cout << x << '\n';
+    std::string name;
+    int age;
 
-    //explicit conversion
-    double y = (int)7.66;
-    std:: cout << y;
+    std::cout << "Whats your name ?\n";
+    std::cin >> name;
+    std::cout << "Whats your age ?\n";
+
+    
+    std::cin >> age;
+    std::cout << "Hellow " << name << '\n';
+    std::cout << "You are " << age << " years old.\n";
 
     return 0;
 }

@@ -1,14 +1,15 @@
 #include <iostream>
 
-using sttr = std::string;
-
-
 int main() {
-    std:: cout << "Vanakamma da mapla !";
-    sttr day = "Tuesday";
-    std:: cout << "\n Day : " << day;
+    std:: cout << "Vanakamma da mapla !\n";
     
-    //numb_i age = 19;
-    //std:: cout << "\n Age :" << age;
+    //implicit conversion
+    int x = 3.14;
+    std:: cout << x << '\n';
+
+    //explicit conversion
+    double y = (int)7.66;
+    std:: cout << y;
+
     return 0;
 }

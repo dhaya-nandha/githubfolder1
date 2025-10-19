@@ -1,14 +1,14 @@
 #include <iostream>
 
-typedef std::string str;
-typedef int numb_i;
+using sttr = std::string;
+
 
 int main() {
     std:: cout << "Vanakamma da mapla !";
-    str day = "Monday";
+    sttr day = "Tuesday";
     std:: cout << "\n Day : " << day;
     
-    numb_i age = 19;
-    std:: cout << "\n Age :" << age;
+    //numb_i age = 19;
+    //std:: cout << "\n Age :" << age;
     return 0;
 }

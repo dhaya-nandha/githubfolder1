@@ -5,8 +5,8 @@ int main() {
     std::string name;
     int age;
 
-    std::cout << "Whats your name ?\n";
-    std::cin >> name;
+    std::cout << "Whats your Fullname ?\n";
+    std::getline(std::cin, name);
     std::cout << "Whats your age ?\n";
 
     

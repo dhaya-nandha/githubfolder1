@@ -1,13 +1,14 @@
 #include <iostream>
 
-namespace first{
-    int x = 1;
-}
+typedef std::string str;
+typedef int numb_i;
 
 int main() {
     std:: cout << "Vanakamma da mapla !";
-    int x = 0;
-    std:: cout << x;
-    std:: cout << first::x;
+    str day = "Monday";
+    std:: cout << "\n Day : " << day;
+    
+    numb_i age = 19;
+    std:: cout << "\n Age :" << age;
     return 0;
 }

@@ -4,15 +4,24 @@
 int main() {
     std:: cout << "Vanakamma da mapla !\n";
     
-    //if else statements
-    int age;
-    
-    std::cout << "Enter your age:\n";
-    std::cin >> age;
-    if( age >= 18) {
-        std::cout << "Welcome to the site !\n";
-    } else {
-        std::cout << "Your aren't allowed to this site .";
+    //switch statement
+
+    char grade;
+    std::cout << "Enter your grade (A , B , F):\n";
+    std::cin >> grade;
+
+    switch(grade) {
+        case 'A':
+            std::cout << "Good grade !";
+            break;
+        case 'B':
+            std::cout << "Average grade .";
+            break;
+        case 'F':
+            std::cout << "You failed !";
+            break;
+        deafult:
+            std::cout << "Enter only (A B F)";
     }
 
     return 0;

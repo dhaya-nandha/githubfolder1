@@ -4,25 +4,10 @@
 int main() {
     std:: cout << "Vanakamma da mapla !\n";
     
-    //switch statement
+    //ternary operator
 
-    char grade;
-    std::cout << "Enter your grade (A , B , F):\n";
-    std::cin >> grade;
-
-    switch(grade) {
-        case 'A':
-            std::cout << "Good grade !";
-            break;
-        case 'B':
-            std::cout << "Average grade .";
-            break;
-        case 'F':
-            std::cout << "You failed !";
-            break;
-        deafult:
-            std::cout << "Enter only (A B F)";
-    }
+    int a = 10;
+    std::cout << (a==5) ? a : 0;
 
     return 0;
 }

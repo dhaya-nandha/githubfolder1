@@ -4,16 +4,16 @@
 int main() {
     std:: cout << "Vanakamma da mapla !\n";
     
-    //hypoteneous of traingle
-    double r;
-    double h, b;
+    //if else statements
+    int age;
     
-    std::cout << "Enter height :\n";
-    std::cin >> h;
-    std::cout << "\nENter base :\n";
-    std::cin >> b;
-    r = sqrt(pow(h,2) + pow(b,2));
-    std::cout << r;
+    std::cout << "Enter your age:\n";
+    std::cin >> age;
+    if( age >= 18) {
+        std::cout << "Welcome to the site !\n";
+    } else {
+        std::cout << "Your aren't allowed to this site .";
+    }
 
     return 0;
 }
